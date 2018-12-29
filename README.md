@@ -23,14 +23,14 @@ Duoduoke支持所有的PHP项目，只要求PHP版本大于等于7.0即可。同
 通过composer，这是推荐的方式，可以使用composer.json 声明依赖，或者直接运行下面的命令。
 
 ```php
-composer require chenhong/duoduoke
+composer require "chenhong/duoduoke:dev-master"
 ```
 
 放入composer.json文件中
 
 ```php
     "require": {
-        "chenhong/duoduoke": "*"
+        "chenhong/duoduoke:dev-master"
     }
 ```
 
