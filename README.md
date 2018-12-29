@@ -1,8 +1,7 @@
 [![Software license][ico-license]](LICENSE)
-[![Latest development][ico-version-dev]][link-packagist]
-[![Monthly installs][ico-downloads-monthly]][link-downloads]
 
 ----
+
 
 <img style="display:block;margin:0 auto;" src='http://cdn.pinduoduo.com/assets/img/pdd_logo_v3.png'/>
 
