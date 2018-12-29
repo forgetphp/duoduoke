@@ -1,9 +1,12 @@
+<div style="margin:0 auto;">
+    <p align="center" style="margin:0px;"><img src='http://cdn.pinduoduo.com/assets/img/pdd_logo_v3.png'/>
+</p>
+</div>
+
+
 [![Software license][ico-license]](LICENSE)
 
 ----
-
-
-<img style="display:block;margin:0 auto;" src='http://cdn.pinduoduo.com/assets/img/pdd_logo_v3.png'/>
 
 > ## Duoduoke
 
