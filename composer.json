@@ -1,0 +1,37 @@
+{
+    "name": "chenhong/duoduoke",
+    "description": "pingduoduo api duoduoke api",
+    "version":"1.0.0",
+    "keywords":[
+        "pingduoduo",
+        "duoduoke",
+        "duoduo ke api",
+        "拼多多 api",
+        "多多客 api"
+    ],
+    "homepage":"https://www.taoboquan.com",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "php": ">=7.0",
+        "pimple/pimple": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "forgetphp",
+            "email": "747825455@qq.com",
+            "homepage":"http://www.chenhongblog.com",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email": "747825455@qq.com",
+        "issues":"http://www.chenhongblog.com",
+        "source":"http://www.chenhongblog.com"
+    },
+    "autoload":{
+        "psr-4": {
+            "DuoDuoKe\\": "src/"
+        }
+    }
+}
