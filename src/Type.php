@@ -143,4 +143,9 @@ class Type
      * @property string pdd.ddk.color.order.increment.get 新增染色补贴订单增量查询接口
      */
     const COLOR_ORDER_INCREMENT_GET =  'pdd.ddk.color.order.increment.get';
+
+    /**
+     * @property string pdd.ddk.top.goods.list.query 获取热销商品列表
+     */
+    const TOP_GOODS_LIST_QUERY =  'pdd.ddk.top.goods.list.query';
 }

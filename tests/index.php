@@ -18,14 +18,23 @@ $config = include_once './config.php';
 //];
 
 $app = Factory::account($config);
-
+$result = '';
 echo "<pre>";
 
-//推广位查询
-$result = $app->popularize->list([
-    'page'=>1,
-    'page_size'=>20
+$result = $app->goods->topGoodsListQuery([
+
 ]);
+
+//推广位查询
+//$result = $app->popularize->list([
+//    'page'=>1,
+//    'page_size'=>20
+//]);
+
+//$str = $response->getBody()->getContents();
+
+//file_put_contents('./test.html',$str);
+
 
 //推广位创建 一次创建一个。不然容易出错
 //$result = $app->popularize->create(['test3']);

@@ -127,4 +127,13 @@ class Client extends BaseClient
 
         return $this->httpPost( 'api/router' , $query );
     }
+
+    public function topGoodsListQuery($query = [])
+    {
+        $query = array_merge( $query , [
+            'type' => Type::TOP_GOODS_LIST_QUERY ,
+        ] );
+
+        return $this->httpPost( 'api/router' , $query );
+    }
 }
