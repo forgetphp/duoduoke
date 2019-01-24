@@ -219,6 +219,11 @@ $app = Factory::account($config);
 //    'end_update_time'=>time(),
 //]);
 
+//获取爆爆款商品
+$result = $app->goods->topGoodsListQuery([
+
+]);
+
 
 ```
 
