@@ -100,6 +100,12 @@ class Client extends BaseClient
         return $this->httpPost( 'api/router' , $query );
     }
 
+    /**
+     * @method array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface zsUnitGoodsQuery()
+     * @param array $query
+     *
+     * @return array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface
+     */
     public function zsUnitGoodsQuery( $query = [ ] )
     {
         $query = array_merge( $query , [
@@ -109,6 +115,12 @@ class Client extends BaseClient
         return $this->httpPost( 'api/router' , $query );
     }
 
+    /**
+     * @method array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface basicInfoGet()
+     * @param array $query
+     *
+     * @return array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface
+     */
     public function basicInfoGet( $query = [ ] )
     {
         $query = array_merge( $query , [
@@ -119,6 +131,12 @@ class Client extends BaseClient
         return $this->httpPost( 'api/router' , $query );
     }
 
+    /**
+     * @method array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface recommendGet()
+     * @param array $query
+     *
+     * @return array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface
+     */
     public function recommendGet($query = [])
     {
         $query = array_merge( $query , [
@@ -128,6 +146,12 @@ class Client extends BaseClient
         return $this->httpPost( 'api/router' , $query );
     }
 
+    /**
+     * @method array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface topGoodsListQuery()
+     * @param array $query
+     *
+     * @return array|\DuoDuoKe\Core\Http\Response|object|\Psr\Http\Message\ResponseInterface
+     */
     public function topGoodsListQuery($query = [])
     {
         $query = array_merge( $query , [
